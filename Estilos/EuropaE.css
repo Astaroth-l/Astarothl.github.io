@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Titulo{
+    text-align: center;
+    background-color: rgba(25, 55, 187, 0.76);
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+body{
+    background: url(/Imagen/atardecer-florencia-min.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.encabezado{
+    background-image: radial-gradient(circle at 50% 14.83%, #8f9bff 0, #3c78f2 50%, #005ae3 100%);
+    margin: 0%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+img{
+    width:150px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    display: block;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(66, 87, 204);
+}
+
+.menu ul li ul{
+    position:absolute;
+    background-color: rgba(24, 95, 161, 0.74);
+}
+
+.menu ul li ul{
+    width: 140px;
+}
+
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover>ul{
+    display: block;
+}
+
+.menu ul li ul a{
+    font-size: 20px;
+}
+
+main{
+    background-color: rgba(33, 132, 190, 0.514);
+    margin: 125px 30px 20px 30px;
+    
+}
+
+.Historia{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    
+    text-shadow: 1px 2px 2px black,0 0 25px blue, 0 0 5px blue;
+}
+
+.parrafo1{
+    margin:5px;
+    font-size: 25px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.Imagen{
+    width: 400px;
+    height: auto; /*mover una imagen sin q se distorco */
+    display: block; /*Convertirlo en Bloque */
+    margin: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.Imagen:hover{
+    transform: scale(1.2);
+}
+
+.economia{
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 2px 2px black,0 0 25px blue, 0 0 5px blue;   
+}
+
+.parrafo2{
+    font-size: 25px;
+    font-family: 'Oleo Script', cursive;
+    margin: 5px;
+}
+
+.video{
+    margin: 10px;
+}
+
+table{
+    width: 50%;
+    /*border-spacing: 0px;*/
+    border-collapse: collapse;
+    /*caption-side: bottom;*/
+    margin:auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+tr, td{
+    width: 25%;
+    text-align: center;
+    /*solid, dashed, dotted */
+    border: 2px solid rgb(0, 0, 0);
+    vertical-align: bottom;
+    /*border-spacing: 0px;*/
+    background-color: rgba(221, 203, 123, 0.788);
+    font-size: 20px;
+    
+}
+
+caption{
+    background-color: rgba(202, 169, 58, 0.733);
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    border: 3px solid black;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 2px 0 #bbb, 
+    0 3px 0 #b9b9b9, 
+    0 3px 0 #aaa, 
+    0 6px 1px rgba(0, 0, 0, .1), 
+    0 0 5px rgba(0, 0, 0, .1), 
+    0 1px 3px rgba(0, 0, 0, .3), 
+    0 3px 5px rgba(0, 0, 0, .2), 
+    0 5px 10px rgba(0, 0, 0, .25), 
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15) ;
+}
+
+.pais{
+    background-color: rgba(192, 127, 52, 0.788);
+}
+
+.capital{
+    background-color: rgb(192, 127, 52, 0.788);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+footer img{
+    width: 50px;
+}
+
+.FB{
+    text-align: right;
+}
+
+.direccion{
+    float: right;
+    margin: 0px 0px 1px 0px;
+}
+
+.correo{
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    float: left;
+}
